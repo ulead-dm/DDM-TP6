@@ -1,5 +1,19 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+
+# Environment
 .env
-.pem
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
